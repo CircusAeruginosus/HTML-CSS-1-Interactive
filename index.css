@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;  
+}
+
 html {
     background-color: red;
 }
@@ -9,4 +13,19 @@ button {
 h1 {
     text-align: center;
     background-color: aliceblue;
+}
+
+p {
+    width: 500px;
+    border: green dashed 2px;
+}
+
+img {
+    width: 50vw;
+    margin-left: 100px;
+}
+
+ol > li {
+    font-size: 25px;
+    margin: 20px;
 }
